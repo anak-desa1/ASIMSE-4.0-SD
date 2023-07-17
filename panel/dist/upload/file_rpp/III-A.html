@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Input_rpp</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicons -->
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/dist/upload/logo/logo-sd.png" rel="icon">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/dist/upload/logo/logo-sd.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/assets/css/style.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/animate.css-master/animate.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+  <!-- Font Awesome Pro -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/fontawesome-free/css/all.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
+  <link href="https://sds-sintyosephtigabinanga.sch.id/panel/dist/css/fullcalendar.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/toastr/build/toastr.min.css" /><!-- Tempusdominus Bbootstrap 4 -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+<!-- iCheck -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+<!-- JQVMap -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jqvmap/jqvmap.min.css">
+<!-- overlayScrollbars -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+<!-- Daterange picker -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/daterangepicker/daterangepicker.css">
+<!-- summernote -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/summernote/summernote-bs4.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/fontawesome-free/css/all.min.css">
+<!-- Bootstrap Color Picker -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+<!-- Select2 -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2/css/select2.min.css">
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+<!-- Bootstrap4 Duallistbox -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+<!-- BS Stepper -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bs-stepper/css/bs-stepper.min.css">
+<!-- dropzonejs -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/dropzone/min/dropzone.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/fontawesome-free/css/all.min.css">
+<!-- AdminLTE css -->
+<link rel="stylesheet" href="https://sds-sintyosephtigabinanga.sch.id/panel/dist/css/adminlte.min.css"></head>
+
+<!-- <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"> -->
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="https://sds-sintyosephtigabinanga.sch.id/panel/dist/upload/logo/logo-sd.png" alt="">
+                <span class="d-none d-lg-block" style="font-size: 18px;">SD SWASTA SINT. YOSEPH TIGABINANGA</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <div class="search-bar">
+            <form class="search-form d-flex align-items-center" method="POST" action="#">
+                <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+            </form>
+        </div><!-- End Search Bar -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link nav-icon search-bar-toggle " href="#">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </li><!-- End Search Icon-->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-bell"></i>
+                        <span class="badge bg-primary badge-number">4</span>
+                    </a><!-- End Notification Icon -->
+
+                    <!-- <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+                        <li class="dropdown-header">
+                            You have 4 new notifications
+                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-exclamation-circle text-warning"></i>
+                            <div>
+                                <h4>Lorem Ipsum</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>30 min. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-x-circle text-danger"></i>
+                            <div>
+                                <h4>Atque rerum nesciunt</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>1 hr. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <div>
+                                <h4>Sit rerum fuga</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>2 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-info-circle text-primary"></i>
+                            <div>
+                                <h4>Dicta reprehenderit</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>4 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li class="dropdown-footer">
+                            <a href="#">Show all notifications</a>
+                        </li>
+
+                    </ul> -->
+                    <!-- End Notification Dropdown Items -->
+
+                </li><!-- End Notification Nav -->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-chat-left-text"></i>
+                        <span class="badge bg-success badge-number">3</span>
+                    </a><!-- End Messages Icon -->
+
+                    <!-- <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                        <li class="dropdown-header">
+                            You have 3 new messages
+                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>Maria Hudson</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>4 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>Anna Nelson</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>6 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>David Muldon</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>8 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="dropdown-footer">
+                            <a href="#">Show all messages</a>
+                        </li>
+
+                    </ul> -->
+                    <!-- End Messages Dropdown Items -->
+
+                </li><!-- End Messages Nav -->
+
+                <li class="nav-item dropdown pe-3">
+
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/img/profil-user/default.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">RIOPASCALIUS SEBAYANG, S.Pd</span>
+                    </a><!-- End Profile Iamge Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <!-- <li class="dropdown-header">
+                            <h6>RIOPASCALIUS SEBAYANG, S.Pd</h6>
+                            <span>RIOPASCALIUS SEBAYANG, S.Pd</span>
+                        </li> -->
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="https://sds-sintyosephtigabinanga.sch.id/pegawai_profil/pegawai/profil">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <!-- <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-gear"></i>
+                                <span>Account Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li> -->
+
+                        <!-- <li>
+                            <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                                <i class="bi bi-question-circle"></i>
+                                <span>Need Help?</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="https://sds-sintyosephtigabinanga.sch.id/login/out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+
+            </ul>
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header --> <!-- ======= Sidebar ======= -->
+ <aside id="sidebar" class="sidebar">
+
+   <ul class="sidebar-nav" id="sidebar-nav">
+
+     <li class="nav-item">
+       <a href="https://sds-sintyosephtigabinanga.sch.id/dashboard" class="nav-link collapsed">
+         <i class="bi bi-grid"></i>
+         <span>Dashboard</span>
+       </a>
+     </li><!-- End Dashboard Nav -->
+
+     <li class="nav-item">
+       <a href="https://sds-sintyosephtigabinanga.sch.id/pegawai_profil/pegawai/profil" class="nav-link collapsed">
+         <i class="bi bi-person"></i>
+         <span>My Profile</span>
+       </a>
+     </li><!-- End Profile Page Nav -->
+
+     
+     <li class="nav-item">
+       <a class="nav-link collapsed" href="https://sds-sintyosephtigabinanga.sch.id/login/out">
+         <i class="bi bi-box-arrow-in-right"></i>
+         <span>Logout</span>
+       </a>
+     </li><!-- End Logout Page Nav -->
+
+     <li class="nav-heading">Pages</li>     
+
+           
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Presensi_Siswa-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-qr-code"></i><span>Presensi_Siswa</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Presensi_Siswa-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/siswa_presensi/presensi" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Presensi Harian</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/siswa_presensi/rekap" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Rekap Absensi</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+            
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Rapor_Guru_KM-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-collection"></i><span>Rapor_Guru_KM</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Rapor_Guru_KM-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru_km/input_sumatif" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input Sumatif</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru_km/input_atp" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input ATP</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru_km/input_rpp_plus" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input RPP +</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru_km/input_nilai_sumatif" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input Nilai Sumatif</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru_km/capaian_kompetensi" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Capaian Kompetensi</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+            
+     <li class="nav-item">
+        <a class="nav-link " data-bs-target="#Rapor_Guru_K13-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-collection"></i><span>Rapor_Guru_K13</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Rapor_Guru_K13-nav" class="nav-content collapseshow" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_kd" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input KD</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_nilai" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input Nilai</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/capaian_kompetensi" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Capaian Kompetensi</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_silabus" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Input Silabus</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp" class="active">
+              <i class="bi bi-arrow-right-circle"></i><span>Input RPP</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+            
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Perpus_Buku-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-book-fill"></i><span>Perpus_Buku</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Perpus_Buku-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_buku/dashboard" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Dashboard</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_buku/cari_buku" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Cari Buku</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+            
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Perpus_Data-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-book-fill"></i><span>Perpus_Data</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Perpus_Data-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_pengguna" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Data Pengguna</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_buku" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Data Buku</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_kategori" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Kategori Buku</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_rak" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Rak Buku</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_denda" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Denda</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_data/data_label" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Label Buku</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+            
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Perpus_Transaksi-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-book-fill"></i><span>Perpus_Transaksi</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Perpus_Transaksi-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                  <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_transaksi/transaksi_peminjaman" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Peminjaman</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://sds-sintyosephtigabinanga.sch.id/perpus_transaksi/transaksi_pengembalian" class="">
+              <i class="bi bi-arrow-right-circle"></i><span>Pengembalian</span>
+            </a>
+          </li>
+                  </ul>
+      </li><!-- End Components Nav -->
+      
+
+     <br>
+     <li class="nav-item">
+       <a href="" class="nav-link active">
+         <i class="bi bi-grid"></i>
+         <span>Support By ASIMSE</span>
+       </a>
+     </li><!-- End Dashboard Nav -->
+
+   </ul>
+ </aside><!-- End Sidebar-->
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Input RPP</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="">Rapor Guru</a></li>
+                <!-- <li class="breadcrumb-item">Input RPP</li> -->
+                <li class="breadcrumb-item active">Input RPP</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="col-md-12">
+        <!-- About Me Box -->
+        <div class="card card-info">
+            <div class="card-header">
+                <h3 class="card-title">About Me</h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">      
+                <p class="text-muted">III-A</p>        
+                <p class="text-muted">Informatika</p>      
+                <p class="text-muted">129 | RIOPASCALIUS SEBAYANG, S.Pd</p>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+        </div>
+        <div class="container-fluid">
+            <div class="row">               
+                <!-- /.col -->
+                <div class="col-md-12">
+                    <div class="card">
+                                                                        <div class="tampil-modal"></div>
+                        <div class="card-header p-2">                           
+                            <a class="btn btn-primary mb-3" href="https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp">
+                                <i class="fa fa-arrow-circle-left"></i> Kembali
+                            </a>    
+                                                            <button type="button" class="btn btn-success mb-3 btn-action" data-id="97">
+                                    <i class="fa fa-plus-circle"></i> Tambah Data
+                                </button>
+                                                   
+                        </div><!-- /.card-header -->
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="active tab-pane" id="activity">
+                                    <!-- Table row -->
+                                    <div class="row">
+                                        <div class="col-12 table-responsive">
+                                            <table class="table table-striped table table-sm">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>                                                      
+                                                        <th>Tema</th>
+                                                        <th>Sub Tema</th>
+                                                        <th>Pembelajaran</th>                                        
+                                                        <th>Cetak</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                                                                                                                                               
+                                                            <tr>
+                                                                <td>1</td>                                                                
+                                                                <td>mengenal layar dekstop dan elemennya, menggambar bentuk tema dan menambahkan teks pada gambar </td>
+                                                                <td>mengenal dan memahami layar desktop, menggambar bentuk bertema, menambahkan teks pada gambar </td>
+                                                                <td>1 sampai 20 </td>
+                                                                <td class="project-actions">
+                                                                    <button type="button" class="btn btn-warning mb-3 btn-edit" data-id="131">
+                                                                        <i class="fa fa-edit"></i></a>
+                                                                    </button>
+                                                                    <button type="button" class="btn btn-secondary mb-3 btn-cetak" data-id="131">
+                                                                        <i class="fa fa-print"></i></a>
+                                                                    </button>     
+                                                                    <button type="button" class="btn btn-danger mb-3 btn-delete" data-id="131">
+                                                                        <i class="fa fa-trash"></i></a>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                                                                                       
+                                                            <tr>
+                                                                <td>2</td>                                                                
+                                                                <td>mengenal layar dekstop dan elemennya, menggambar bentuk tema dan menambahkan teks pada gambar </td>
+                                                                <td>mengenal dan memahami layar desktop, menggambar bentuk bertema, menambahkan teks pada gambar </td>
+                                                                <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</td>
+                                                                <td class="project-actions">
+                                                                    <button type="button" class="btn btn-warning mb-3 btn-edit" data-id="133">
+                                                                        <i class="fa fa-edit"></i></a>
+                                                                    </button>
+                                                                    <button type="button" class="btn btn-secondary mb-3 btn-cetak" data-id="133">
+                                                                        <i class="fa fa-print"></i></a>
+                                                                    </button>     
+                                                                    <button type="button" class="btn btn-danger mb-3 btn-delete" data-id="133">
+                                                                        <i class="fa fa-trash"></i></a>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- /.col -->
+                                    </div>
+                                    <!-- /.row -->                                   
+                                </div>
+                                <!-- /.tab-pane -->
+                            </div>
+                            <!-- /.tab-content -->
+                        </div><!-- /.card-body -->
+                    </div>
+                    <!-- /.nav-tabs-custom -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+
+</main> <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+   <div class="copyright">
+     Copyright &copy; 2020-2023 <strong><span>SD SWASTA SINT. YOSEPH TIGABINANGA</span></strong>. All Rights Reserved
+   </div>
+   <div class="credits">
+     Designed by <a target="_blank" href="https://sistemanakdesa.my.id/"> SistemAnakDesa</a>
+   </div>
+ </footer><!-- End Footer -->
+
+ <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ <!-- Vendor JS Files -->
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/apexcharts/apexcharts.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/chart.js/chart.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/echarts/echarts.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/quill/quill.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/simple-datatables/simple-datatables.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/tinymce/tinymce.min.js"></script>
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/vendor/php-email-form/validate.js"></script>
+
+ <!-- Template Main JS File -->
+ <script src="https://sds-sintyosephtigabinanga.sch.id/panel/assets/js/main.js"></script>
+
+ </body>
+
+ </html><!-- jQuery -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/sweetalert2/sweetalert2.min.js"></script>
+<!-- jquery-validation -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery-validation/additional-methods.min.js"></script>
+<!-- DataTables -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- Datepicker -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<!-- Select2 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2/js/select2.full.min.js"></script>
+
+<script type="text/javascript">
+    //set default swal sweet alert..
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000
+    });
+
+    $('.btn-action').on('click', function() {
+        show_loading();
+        id = $(this).data('id');
+        xhr = $.ajax({
+            method: "POST",
+            url: "https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp/tambah_rpp/" + id,
+            data: "jenis=tambah",
+            success: function(response) {
+                $('.tampil-modal').html(response);
+                $('.modal-action').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                }, 'show');
+
+                // validate_form();
+                hide_loading();
+            },
+            error: function() {
+
+            }
+        })
+    })
+
+    $('.btn-edit').on('click', function() {
+        show_loading();
+        id = $(this).data('id');
+        xhr = $.ajax({
+            method: "POST",
+            url: "https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp/edit_rpp/" + id,
+            data: "jenis=ubah",
+            success: function(response) {
+                $('.tampil-modal').html(response);
+                $('.modal-edit').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                }, 'show');
+
+                validate_form();
+                hide_loading();
+            },
+            error: function() {
+
+            }
+        })
+    })
+
+    $('.btn-cetak').on('click', function() {
+        show_loading();
+        id = $(this).data('id');
+        xhr = $.ajax({
+            method: "POST",
+            url: "https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp/cetak_rpp/" + id,
+            data: "jenis=cetak",
+            success: function(response) {
+                $('.tampil-modal').html(response);
+                $('.modal-cetak').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                }, 'show');
+
+                validate_form();
+                hide_loading();
+            },
+            error: function() {
+
+            }
+        })
+    })
+
+    $('.btn-delete').on('click', function() {
+        show_loading();
+        id = $(this).data('id');
+        xhr = $.ajax({
+            method: "POST",
+            url: "https://sds-sintyosephtigabinanga.sch.id/akademik_guru/input_rpp/del_rpp/" + id,
+            data: "jenis=hapus",
+            success: function(response) {
+                $('.tampil-modal').html(response);
+                $('.modal-delete').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                }, 'show');
+
+                validate_form();
+                hide_loading();
+            },
+            error: function() {
+
+            }
+        })
+    })
+</script><!-- jQuery -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/sweetalert2/sweetalert2.min.js"></script>
+<!-- jquery-validation -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/jquery-validation/additional-methods.min.js"></script>
+
+<!-- overlayScrollbars -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- Select2 -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/select2/js/select2.full.min.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/moment/moment.min.js"></script>
+<!-- DataTables -->
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script src="https://sds-sintyosephtigabinanga.sch.id/panel/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+    $(function() {
+        $('#datatb').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': true,
+            'ordering': true,
+            'info': false,
+            'autoWidth': true
+        })
+    })
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('.select2').select2();
+        $(".tglcalendar").datepicker({
+            todayHighlight: true,
+            format: "dd-mm-yyyy"
+        });
+    });
+</script>
+
+<script>
+    function printDiv(divName) {
+        var printContents = document.getElementById(divName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+
+        window.print();
+
+        document.body.innerHTML = originalContents;
+    }
+</script>
+
+<script>
+    // loading dulu ach ---
+    show_loading();
+    $(window).on("load", function() {
+        // Handler for .load() called.
+        $(".preload-wrapper6").fadeOut('slow');
+    });
+
+    function show_loading() {
+        $(".preload-wrapper6").show();
+    }
+
+    function hide_loading() {
+        $(".preload-wrapper6").fadeOut('fast');
+    }
+
+    function call_datepicker() {
+        $('.datepicker').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+    }
+
+    $('.notifikasi').on('click', function(e) {
+        let id = e.currentTarget.dataset.id;
+        let jenis_notif = e.currentTarget.dataset.jenis;
+        show_loading();
+        xhr = $.ajax({
+            method: "POST",
+            url: "https://sds-sintyosephtigabinanga.sch.id/notifikasi/approval",
+            data: 'id=' + id + '&jenis_notif=' + jenis_notif,
+            success: function(response) {
+                $('.div-modal-approval').html(response);
+                $('.modal-approval').modal('show');
+                hide_loading();
+            }
+        })
+    })
+
+    /// CEK UNTUK 2 MODAL SUPAYA BISA SCROLL
+    $('body').on('hidden.bs.modal', function() {
+        if ($('.modal.in').length > 0) {
+            $('body').addClass('modal-open');
+        }
+    });
+
+
+    /////// disable close modal escape
+    // $.fn.modal.prototype.constructor.Constructor.DEFAULTS.backdrop = 'static';
+    // $.fn.modal.prototype.constructor.Constructor.DEFAULTS.keyboard =  false;
+
+
+    function format_angka(nilai) {
+        bk = nilai.replace(/[^\d]/g, "");
+        ck = "";
+        panjangk = bk.length;
+        j = 0;
+        for (i = panjangk; i > 0; i--) {
+            j = j + 1;
+            if (((j % 3) == 1) && (j != 1)) {
+                ck = bk.substr(i - 1, 1) + "." + ck;
+                xk = bk;
+            } else {
+                ck = bk.substr(i - 1, 1) + ck;
+                xk = bk;
+            }
+        }
+        return ck;
+
+    }
+
+    function hanya_angka(nilai) {
+        bk = nilai.replace(/[^\d]/g, "");
+        ck = "";
+        panjangk = bk.length;
+        j = 0;
+        for (i = panjangk; i > 0; i--) {
+
+            ck = bk.substr(i - 1, 1) + ck;
+            xk = bk;
+
+        }
+        return ck;
+    }
+
+    function formatNumber(num) {
+        return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+    }
+
+    function error_timeout_ajax($param1) {
+        swal({
+            title: "Perhatian!",
+            text: ($param1 ? $param1 : "Gagal Memuat Halaman, silahkan coba lagi atau periksa koneksi internet anda.."),
+            type: "warning",
+            confirmButtonColor: "#007AFF"
+        });
+    }
+</script>
+</body>
+
+</html>
