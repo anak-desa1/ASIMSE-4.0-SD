@@ -15,7 +15,7 @@ Tampilan Akun Login :
 
 
 Tampilan Login :
-![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/Login.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/gambar_home.PNG?raw=true)
 
 
 Rancangan ASIMSE 4.0 SD dalam satu kali login
