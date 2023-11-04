@@ -41,7 +41,7 @@ ASIMSE 4.0 Premium (Rp. 2.500.000)
 
 Cek demo ASIMSE 4.0 Premium : 
 
-https://smp.sistemanakdesa.my.id/login
+https://sd.sistemanakdesa.my.id/login
 
 Akun Demo Website Profil
 Username : user1@sekolah.sch.id 
