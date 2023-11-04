@@ -16,28 +16,55 @@ Tampilan Akun Login :
 ![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/gambar_akun_login.PNG?raw=true)
 
 
-Rancangan ASIMSE 4.0 SD dalam satu kali login
+ASIMSE 4.0 (Rp. 25.000)
+- Profile Sekolah (info kegiatan sekolah)
+- Proses PPDB
+- Proses SKL
+- Tampilan Responsive
+- Open Source
 
--website sekolah
+ASIMSE 4.0 Premium (Rp. 2.500.000)
+- Profile Sekolah (info kegiatan sekolah)
+- Proses PPDB
+- Proses SKL & Alumni
+- Proses Absensi QRCode
+- Proses CBT (150 - 200 user)
+- Free Domain (sekolah.sch.id)
+- Syarat dan ketentuan berlaku
+- Template Premium
+- Tampilan Responsive
+- Free Hosting
+- Free Update
+- Free Backup
+- Harga per 1 Tah
 
--website kelulusan/alumni
+Cek demo ASIMSE 4.0 Premium : 
 
--website ppdb/psb
+https://smp.sistemanakdesa.my.id/login
 
--website absen qrcode
+Akun Demo Website Profil
+Username : user1@sekolah.sch.id 
+password : 12345678
 
--website perpustakaan
+Akun Demo Website PPDB
+user2@sekolah.sch.id
+password : 12345678
 
--website e-rapor
+Akun Demo Website Absensi
+user3@sekolah.sch.id
+password : 12345678
 
--website arsip
+Akun Demo Website Perpustakaan
+user4@sekolah.sch.id
+password : 12345678
 
--website cbt (masih dikembangkan)
+Akun Demo Website CBT
+user5@sekolah.sch.id
+password : 12345678
 
--website akm (masih dikembangkan)
-
-Cek demo : https://sd.sistemanakdesa.my.id/
-akun login demo bisa didapatkan setelah melakukan registrasi
+Akun Demo Website SKL/ALUMNI
+user6@sekolah.sch.id
+password : 12345678
 
 ***************************************************************
 Untuk mendapatakan database aplikasi ini silahkan registrasi di https://sistemanakdesa.my.id/ad/web_daftar/registration
@@ -45,16 +72,10 @@ dengan data yang sebenar-benarnya...
 kami akan melakukan validasi data di https://referensi.data.kemdikbud.go.id/
 untuk memastikan bahwa anda pendidik atau bukan.
 ***************************************************************
-Selanjutnya silahkan login di 
-https://sistemanakdesa.my.id/ad/login
-dengan username dan password saat registrasi
-
--Pilih Beli Baru
-
--Pilih DonasiSD
-
-Untuk konfirmasi bisa hubungi kami di
+Info Lebih lebih lengkap dapat hubungi kami di
 WA : 085805156113
+
+
 
 
 
