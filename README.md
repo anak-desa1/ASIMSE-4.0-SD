@@ -44,27 +44,27 @@ Cek demo ASIMSE 4.0 Premium :
 https://sd.sistemanakdesa.my.id/login
 
 Akun Demo Website Profil
-Username : user1@sekolah.sch.id 
+username : user1@sekolah.sch.id 
 password : 12345678
 
 Akun Demo Website PPDB
-user2@sekolah.sch.id
+username : user2@sekolah.sch.id
 password : 12345678
 
 Akun Demo Website Absensi
-user3@sekolah.sch.id
+username : user3@sekolah.sch.id
 password : 12345678
 
 Akun Demo Website Perpustakaan
-user4@sekolah.sch.id
+username : user4@sekolah.sch.id
 password : 12345678
 
 Akun Demo Website CBT
-user5@sekolah.sch.id
+username : user5@sekolah.sch.id
 password : 12345678
 
 Akun Demo Website SKL/ALUMNI
-user6@sekolah.sch.id
+username : user6@sekolah.sch.id
 password : 12345678
 ***************************************************************
 Untuk mendapatakan database aplikasi ini silahkan registrasi di https://sistemanakdesa.my.id/ad/web_daftar/registration
