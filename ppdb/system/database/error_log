@@ -1,6 +1,0 @@
-[17-Sep-2022 16:23:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/smanbun1/cbt.sman1-bunguranutara.sch.id/panel/mod_setting/uwu.php:2144
-Stack trace:
-#0 /home/smanbun1/cbt.sman1-bunguranutara.sch.id/panel/mod_setting/uwu.php(3810): is_binary('/home/smanbun1/...')
-#1 /home/smanbun1/cbt.sman1-bunguranutara.sch.id/panel/mod_setting/uwu.php(612): edit_file_form()
-#2 {main}
-  thrown in /home/smanbun1/cbt.sman1-bunguranutara.sch.id/panel/mod_setting/uwu.php on line 2144
