@@ -37,7 +37,7 @@ ASIMSE 4.0 Premium (Rp. 2.500.000)
 - Free Hosting
 - Free Update
 - Free Backup
-- Harga per 1 Tah
+- Harga berlangganan 1 Tahun
 
 Cek demo ASIMSE 4.0 Premium : 
 
