@@ -21,6 +21,9 @@ ASIMSE 4.0 Basic (Rp. 450.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL
+- Free Domain (sekolah.sch.id)
+- Syarat dan ketentuan berlaku
+- Template Premium
 - Tampilan Responsive
 - Free Hosting
 - Free Update
