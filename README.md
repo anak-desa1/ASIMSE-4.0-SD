@@ -17,10 +17,17 @@ Tampilan Akun Login :
 
 
 ***************************************************************
-ASIMSE 4.0 Basic (Rp. 450.000)
+ASIMSE 4.0 SC (Rp. 50.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL
+- Tampilan Responsive
+- Open Source
+***************************************************************
+ASIMSE 4.0 Basic (Rp. 450.000)
+- Profile Sekolah (info kegiatan sekolah)
+- Proses PPDB
+- Proses SKL & Alumni
 - Free Domain (sekolah.sch.id)
 - Syarat dan ketentuan berlaku
 - Template Premium
@@ -30,12 +37,14 @@ ASIMSE 4.0 Basic (Rp. 450.000)
 - Free Backup
 - Harga berlangganan 1 Tahun
 ***************************************************************
-ASIMSE 4.0 Pro (Rp. 2.500.000)
+ASIMSE 4.0 Premium (Rp. 2.500.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
-- Proses Absensi QRCode
-- Proses CBT (150 - 200 user)
+- Proses E-Sekolah
+  * Absen QRCode
+  * Perpustakaan
+  * CBT (150-200 User)
 - Free Domain (sekolah.sch.id)
 - Syarat dan ketentuan berlaku
 - Template Premium
@@ -44,8 +53,9 @@ ASIMSE 4.0 Pro (Rp. 2.500.000)
 - Free Update
 - Free Backup
 - Harga berlangganan 1 Tahun
+***************************************************************
 
-Cek demo ASIMSE 4.0 Pro : 
+Cek demo ASIMSE 4.0 :
 
 https://sd.sistemanakdesa.my.id/login
 
