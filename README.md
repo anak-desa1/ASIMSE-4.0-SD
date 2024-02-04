@@ -24,10 +24,26 @@ ASIMSE 4.0 SC (Rp. 50.000)
 - Tampilan Responsive
 - Open Source
 ***************************************************************
-ASIMSE 4.0 Basic (Rp. 450.000)
+ASIMSE 4.0 Early (Rp. 750.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
+- Free Domain (sekolah.sch.id)
+- Syarat dan ketentuan berlaku
+- Template Premium
+- Tampilan Responsive
+- Free Hosting
+- Free Update
+- Free Backup
+- Harga berlangganan 1 Tahun
+***************************************************************
+ASIMSE 4.0 Basic (Rp. 1.500.000)
+- Profile Sekolah (info kegiatan sekolah)
+- Proses PPDB
+- Proses SKL & Alumni
+- Proses E-Sekolah
+  * Absen QRCode
+  * Perpustakaan
 - Free Domain (sekolah.sch.id)
 - Syarat dan ketentuan berlaku
 - Template Premium
@@ -45,6 +61,27 @@ ASIMSE 4.0 Premium (Rp. 2.500.000)
   * Absen QRCode
   * Perpustakaan
   * CBT (150-200 User)
+- Free Domain (sekolah.sch.id)
+- Syarat dan ketentuan berlaku
+- Template Premium
+- Tampilan Responsive
+- Free Hosting
+- Free Update
+- Free Backup
+- Harga berlangganan 1 Tahun
+***************************************************************
+ASIMSE 4.0 Premium (Rp. 4.500.000)
+- Profile Sekolah (info kegiatan sekolah)
+- Proses PPDB
+- Proses SKL & Alumni
+- Proses E-Sekolah
+  * Absen QRCode
+  * Perpustakaan
+  * CBT (350-400 User)
+  * Akademik
+  * SPP
+  * Arsip
+  * Buku Induk
 - Free Domain (sekolah.sch.id)
 - Syarat dan ketentuan berlaku
 - Template Premium
