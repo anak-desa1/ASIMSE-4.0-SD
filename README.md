@@ -24,7 +24,7 @@ ASIMSE 4.0 SC (Rp. 50.000)
 - Tampilan Responsive
 - Open Source
 ***************************************************************
-ASIMSE 4.0 Early (Rp. 750.000)
+ASIMSE 4.0 Early (Rp. 450.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
@@ -70,7 +70,7 @@ ASIMSE 4.0 Premium (Rp. 2.500.000)
 - Free Backup
 - Harga berlangganan 1 Tahun
 ***************************************************************
-ASIMSE 4.0 Premium (Rp. 4.500.000)
+ASIMSE 4.0 Advanced (Rp. 4.500.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
