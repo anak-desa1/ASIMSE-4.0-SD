@@ -12,46 +12,38 @@ Tampilan Home :
 Tampilan Form Login :
 ![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/gambar_form_login.PNG?raw=true)
 
-Tampilan Akun Login :
-![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard.JPG?raw=true)
+Tampilan Dashboard :
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-2.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-3.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-absen.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-cbt.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-lulus.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-perpustakaan.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/dashboard-ppdb.PNG?raw=true)
 
+Tampilan Web Lainnya :
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/ppdb-1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/ppdb-2.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/lulus-1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/lulus-2.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/lulus-3.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/sekolah-1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/sekolah-2.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/sekolah-3.PNG?raw=true)
 
 ***************************************************************
-ASIMSE 4.0 SC (Rp. 50.000)
-- Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB
-- Proses SKL
-- Tampilan Responsive
-- Open Source
-***************************************************************
-ASIMSE 4.0 Early (Rp. 450.000)
-- Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB
-- Proses SKL & Alumni
-- Free Domain (sekolah.sch.id)
-- Syarat dan ketentuan berlaku
-- Template Premium
-- Tampilan Responsive
-- Free Hosting
-- Free Update
-- Free Backup
-- Harga berlangganan 1 Tahun
-***************************************************************
-ASIMSE 4.0 Basic (Rp. 1.500.000)
+ASIMSE 4.0 SC (Rp. 250.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
 - Proses E-Sekolah
   * Absen QRCode
   * Perpustakaan
-- Free Domain (sekolah.sch.id)
-- Syarat dan ketentuan berlaku
-- Template Premium
+  * CBT 
+  * Erapor KM-K13 + BUKU INDUK
 - Tampilan Responsive
-- Free Hosting
-- Free Update
-- Free Backup
-- Harga berlangganan 1 Tahun
+- Open Source
 ***************************************************************
 ASIMSE 4.0 Premium (Rp. 2.500.000)
 - Profile Sekolah (info kegiatan sekolah)
@@ -61,37 +53,21 @@ ASIMSE 4.0 Premium (Rp. 2.500.000)
   * Absen QRCode
   * Perpustakaan
   * CBT (150-200 User)
-- Free Domain (sekolah.sch.id)
-- Syarat dan ketentuan berlaku
+  * Erapor KM-K13 + BUKU INDUK
+- Free Domain
+  * sekolah.sch.id
+  * Syarat dan ketentuan berlaku
 - Template Premium
 - Tampilan Responsive
+- E-learning Solutions
+- Mobile App Design
+- Redesign Website
+- Web Development
 - Free Hosting
 - Free Update
 - Free Backup
 - Harga berlangganan 1 Tahun
 ***************************************************************
-ASIMSE 4.0 Advanced (Rp. 4.500.000)
-- Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB
-- Proses SKL & Alumni
-- Proses E-Sekolah
-  * Absen QRCode
-  * Perpustakaan
-  * CBT (350-400 User)
-  * Akademik
-  * SPP
-  * Arsip
-  * Buku Induk
-- Free Domain (sekolah.sch.id)
-- Syarat dan ketentuan berlaku
-- Template Premium
-- Tampilan Responsive
-- Free Hosting
-- Free Update
-- Free Backup
-- Harga berlangganan 1 Tahun
-***************************************************************
-
 Cek demo ASIMSE 4.0 :
 
 https://sd.sistemanakdesa.my.id/login
