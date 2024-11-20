@@ -33,27 +33,21 @@ Tampilan Web Lainnya :
 ![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/sekolah-3.PNG?raw=true)
 
 ***************************************************************
-ASIMSE 4.0 SC (Rp. 250.000)
+ASIMSE 4.0 SC (Rp. 150.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
-- Proses E-Sekolah
-  * Absen QRCode
-  * Perpustakaan
-  * CBT 
-  * Erapor KM-K13 + BUKU INDUK
 - Tampilan Responsive
 - Open Source
 ***************************************************************
-ASIMSE 4.0 Premium (Rp. 2.500.000)
+ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Profile Sekolah (info kegiatan sekolah)
 - Proses PPDB
 - Proses SKL & Alumni
 - Proses E-Sekolah
   * Absen QRCode
   * Perpustakaan
-  * CBT (150-200 User)
-  * Erapor KM-K13 + BUKU INDUK
+  * Elearning
 - Free Domain
   * sekolah.sch.id
   * Syarat dan ketentuan berlaku
@@ -88,7 +82,7 @@ Akun Demo Website Perpustakaan
 username : user4@sekolah.sch.id
 password : 12345678
 
-Akun Demo Website CBT
+Akun Demo Website Elearning
 username : user5@sekolah.sch.id
 password : 12345678
 
