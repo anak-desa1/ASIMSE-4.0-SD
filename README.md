@@ -45,9 +45,14 @@ ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Proses PPDB
 - Proses SKL & Alumni
 - Proses E-Sekolah
-  * Absen QRCode
-  * Perpustakaan
-  * Elearning
+  * KARTU PELAJAR (QRCode)
+  * Jadwal Pelajaran
+  * Absensi
+  * Perpustakaan 
+  * Materi (Modul Ajar)
+  * Tugas 
+  * Ujian Sekolah
+  * Erapor
 - Free Domain
   * sekolah.sch.id
   * Syarat dan ketentuan berlaku
