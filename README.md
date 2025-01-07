@@ -62,44 +62,21 @@ ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Free Backup
 - Harga berlangganan 1 Tahun
 ***************************************************************
+
+***************************************************************
 Cek demo ASIMSE 4.0 :
 
-https://sd.sistemanakdesa.my.id/login
-
-Akun Demo Website Profil
-username : user1@sekolah.sch.id 
-password : 12345678
-
-Akun Demo Website PPDB
-username : user2@sekolah.sch.id
-password : 12345678
-
-Akun Demo Website Absensi
-username : user3@sekolah.sch.id
-password : 12345678
-
-Akun Demo Website Perpustakaan
-username : user4@sekolah.sch.id
-password : 12345678
-
-Akun Demo Website Elearning
-username : user5@sekolah.sch.id
-password : 12345678
-
-Akun Demo Website SKL/ALUMNI
-username : user6@sekolah.sch.id
-password : 12345678
+Info Lebih lebih lengkap dapat hubungi kami di
+WA : 085805156113
+TL Group : https://t.me/+atdjqOYYXho2Yzll
+WA Group : https://chat.whatsapp.com/DjH1cbVAR7dFhaW7tbQ1xh
 ***************************************************************
 Untuk mendapatakan database aplikasi ini silahkan registrasi di https://sistemanakdesa.my.id/ad/web_daftar/registration
 dengan data yang sebenar-benarnya...
 kami akan melakukan validasi data di https://referensi.data.kemdikbud.go.id/
 untuk memastikan bahwa anda pendidik atau bukan.
 ***************************************************************
-Info Lebih lebih lengkap dapat hubungi kami di
-WA : 085805156113
-TL Group : https://t.me/+atdjqOYYXho2Yzll
-WA Group : https://chat.whatsapp.com/DjH1cbVAR7dFhaW7tbQ1xh
-***************************************************************
+
 
 
 
