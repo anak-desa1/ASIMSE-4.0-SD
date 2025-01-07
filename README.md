@@ -62,8 +62,6 @@ ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Free Backup
 - Harga berlangganan 1 Tahun
 ***************************************************************
-
-***************************************************************
 Cek demo ASIMSE 4.0 :
 
 Info Lebih lebih lengkap dapat hubungi kami di
