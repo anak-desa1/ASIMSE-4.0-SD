@@ -65,11 +65,7 @@ ASIMSE 4.0 Premium (Rp. 3.500.000)
 Cek demo ASIMSE 4.0 :
 
 Info Lebih lebih lengkap dapat hubungi kami di
-<<<<<<< HEAD
 WA : 085805156113
-=======
-WA : 085805156113 
->>>>>>> 1334368dc0f954baf3d3e56cb6df0b5e7925dd17
 
 TL Group : https://t.me/+atdjqOYYXho2Yzll
 
