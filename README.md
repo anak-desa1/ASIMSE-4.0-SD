@@ -35,14 +35,14 @@ Tampilan Web Lainnya :
 ***************************************************************
 ASIMSE 4.0 SC (Rp. 150.000)
 - Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB
+- Proses PPDB/SPMB
 - Proses SKL & Alumni
 - Tampilan Responsive
 - Open Source
 ***************************************************************
 ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB
+- Proses PPDB/SPMB
 - Proses SKL & Alumni
 - Proses E-Sekolah
   * KARTU PELAJAR (QRCode)
@@ -71,7 +71,7 @@ Cek demo ASIMSE 4.0 :
 
 Info Lebih lebih lengkap dapat hubungi kami di
 
-WA : 085805156113
+WA : 0858 0517 8397
 
 TL Group : https://t.me/+atdjqOYYXho2Yzll
 
