@@ -33,12 +33,6 @@ Tampilan Web Lainnya :
 ![alt text](https://raw.githubusercontent.com/anak-desa1/ASIMSE-4.0-SD/master/sekolah-3.PNG?raw=true)
 
 ***************************************************************
-ASIMSE 4.0 SC (Rp. 150.000)
-- Profile Sekolah (info kegiatan sekolah)
-- Proses PPDB/SPMB
-- Proses SKL & Alumni
-- Tampilan Responsive
-- Open Source
 ***************************************************************
 ASIMSE 4.0 Premium (Rp. 3.500.000)
 - Profile Sekolah (info kegiatan sekolah)
